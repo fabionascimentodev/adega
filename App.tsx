@@ -20,12 +20,12 @@ export default function App() {
       </View>
       
       <View style={styles.boxProdutos}>
-        <Image
-          source ={require("./assets/bebidas/buchanansDeluxe.png")}
+        <Image 
+          source ={require("./assets/bebidas/royalSalute.png")}
           style={styles.produtos}
         />
         
-        <Text style={styles.text}>BuchanansDeluxe</Text>
+        <Text style={styles.text}>RoyalSalute</Text>
       </View>
         <TouchableOpacity onPress={clickHandler}
         activeOpacity={0.7}
@@ -36,10 +36,10 @@ export default function App() {
       <View style={styles.boxProdutos}>
       <Image
       
-          source ={require("./assets/bebidas/cavaloBranco.png")}
+          source ={require("./assets/bebidas/buchanansDeluxe.png")}
           style={styles.produtos}
         />
-        <Text style={styles.text}>CavaloBranco</Text>
+        <Text style={styles.text}>BuchanansDeluxe</Text>
       </View>
       <TouchableOpacity onPress={clickHandler}
         activeOpacity={0.7}
@@ -76,10 +76,10 @@ export default function App() {
 
         <View style={styles.boxProdutos}>
       <Image
-          source ={require("./assets/bebidas/royalSalute.png")}
+          source ={require("./assets/bebidas/cavaloBranco.png")}
           style={styles.produtos}
         />
-        <Text style={styles.text}>RoyalSalute</Text>
+        <Text style={styles.text}>CavaloBranco</Text>
       </View>
       
       <TouchableOpacity onPress={clickHandler}
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent:'center',
     alignItems: 'center',
-    height:50,
+    height:60,
   },
   logo:{
     resizeMode:'cover',
