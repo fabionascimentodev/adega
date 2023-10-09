@@ -28,5 +28,5 @@ $ npm install
 ### Executar o Mobile
 
 ```bash
-# Execute em outro terminal (dentro da pasta orgs)
+# Execute em outro terminal (dentro da pasta adega)
 $ npx expo
