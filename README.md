@@ -1,4 +1,4 @@
-# adega
+# Adega
 
 Loja de Bebidas Nobres
 
