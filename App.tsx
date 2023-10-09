@@ -9,15 +9,17 @@ import { StyleSheet, Text, View, Image, TouchableOpacity, Alert, ScrollView, Saf
 
 export default function App() {
   return (
+    <>
     
-    <ScrollView>
-    <View style={styles.container}>
     <View>
       <Image
           source ={require("./assets/logo.png")}
           style={styles.logo}
         />
       </View>
+    
+    <ScrollView>
+    <View style={styles.container}>
       
       <View style={styles.boxProdutos}>
         <Image 
@@ -95,8 +97,8 @@ export default function App() {
       </View>
     </ScrollView>
     
+  </>
   );
-  
 }
 
 
