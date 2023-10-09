@@ -29,4 +29,4 @@ $ npm install
 
 ```bash
 # Execute em outro terminal (dentro da pasta adega)
-$ npx expo
+$ npx expo start
