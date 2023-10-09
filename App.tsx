@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { Dimensions, StyleSheet, Text, View, Image, TouchableOpacity, Alert, ScrollView, SafeAreaView} from 'react-native';
 
-  const clickHandler = () =>{
-    alert('Adicionado ao Carrinho!')
-  }
+const width = Dimensions.get('screen').width;
+
+const clickHandler = () =>{alert('Adicionado ao Carrinho!')}
 
 export default function App() {
   return (
@@ -152,6 +152,7 @@ const styles = StyleSheet.create({
   },
   logo:{
     resizeMode:'cover',
-    height:350,
+    width: "100%",
+    height: 578 / 768 * width,
   },
 });
