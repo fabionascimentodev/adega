@@ -131,23 +131,12 @@ const styles = StyleSheet.create({
   btAdicionar:{
     width:150,
     height: 35,
-    backgroundColor:"#008000",
-    color: "#008000",
+    backgroundColor:"black",
+    color: "black",
     textAlign:'center',
     justifyContent:"center",
     fontSize: 20,
     borderRadius:10,
-  },
-  btAdicionar4:{
-    width:150,
-    height: 35,
-    backgroundColor:"#008000",
-    color: "#008000",
-    textAlign:'center',
-    justifyContent:"center",
-    fontSize: 20,
-    borderRadius:10,
-    marginBottom:50
   },
   textButton:{
     color: "#fff",
