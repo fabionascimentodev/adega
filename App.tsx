@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TouchableOpacity, Alert, ScrollView, SafeAreaView} from 'react-native';
 
 
+
   const clickHandler = () =>{
     alert('Adicionado ao Carrinho!')
   }
@@ -18,7 +19,7 @@ export default function App() {
           style={styles.produtos}
         />
         
-        <Text style={styles.text}>Produto 01</Text>
+        <Text style={styles.text}>BuchanansDeluxe</Text>
       </View>
         <TouchableOpacity onPress={clickHandler}
         activeOpacity={0.7}
@@ -32,7 +33,7 @@ export default function App() {
           source ={require("./assets/bebidas/cavaloBranco.png")}
           style={styles.produtos}
         />
-        <Text style={styles.text}>Produto 02</Text>
+        <Text style={styles.text}>CavaloBranco</Text>
       </View>
       <TouchableOpacity onPress={clickHandler}
         activeOpacity={0.7}
@@ -45,7 +46,7 @@ export default function App() {
           source ={require("./assets/bebidas/oldParr.png")}
           style={styles.produtos3}
         />
-        <Text style={styles.text}>Produto 03</Text>
+        <Text style={styles.text}>OldParr</Text>
       </View>
       <TouchableOpacity onPress={clickHandler}
         activeOpacity={0.7}
@@ -58,7 +59,7 @@ export default function App() {
           source ={require("./assets/bebidas/redLabel.png")}
           style={styles.produtos}
         />
-        <Text style={styles.text}>Produto 04</Text>
+        <Text style={styles.text}>RedLabel</Text>
       </View>
       
       <TouchableOpacity onPress={clickHandler}
@@ -69,10 +70,10 @@ export default function App() {
 
         <View style={styles.boxProdutos}>
       <Image
-          source ={require("./assets/bebidas/redLabel.png")}
+          source ={require("./assets/bebidas/royalSalute.png")}
           style={styles.produtos}
         />
-        <Text style={styles.text}>Produto 05</Text>
+        <Text style={styles.text}>RoyalSalute</Text>
       </View>
       
       <TouchableOpacity onPress={clickHandler}
