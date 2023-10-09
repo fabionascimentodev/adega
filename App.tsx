@@ -50,7 +50,7 @@ export default function App() {
       <View style={styles.boxProdutos}>
       <Image
           source ={require("./assets/bebidas/oldParr.png")}
-          style={styles.produtos3}
+          style={styles.produtos}
         />
         <Text style={styles.text}>OldParr</Text>
       </View>
@@ -114,10 +114,6 @@ const styles = StyleSheet.create({
     height: 200
     
   },
-  produtos3:{
-    width: 190,
-    height: 130
-  },
   text:{
     textAlign: 'center',
     fontSize: 20,
@@ -152,7 +148,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     justifyContent:'center',
     alignItems: 'center',
-    height:60,
+    height:50,
   },
   logo:{
     resizeMode:'cover',
