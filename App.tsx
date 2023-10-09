@@ -12,6 +12,12 @@ export default function App() {
     
     <ScrollView>
     <View style={styles.container}>
+    <View>
+      <Image
+          source ={require("./assets/logo.png")}
+          style={styles.logo}
+        />
+      </View>
       
       <View style={styles.boxProdutos}>
         <Image
@@ -147,5 +153,9 @@ const styles = StyleSheet.create({
     justifyContent:'center',
     alignItems: 'center',
     height:50,
-  }
+  },
+  logo:{
+    resizeMode:'cover',
+    height:350,
+  },
 });
