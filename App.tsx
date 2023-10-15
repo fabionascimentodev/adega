@@ -1,7 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { Dimensions, StyleSheet, Text, View, Image, TouchableOpacity, Alert, ScrollView, SafeAreaView} from 'react-native';
-
-const width = Dimensions.get('screen').width;
+import { StyleSheet, Text, View, Image, TouchableOpacity, Alert, ScrollView, SafeAreaView} from 'react-native';
 
 const clickHandler = () =>{alert('Adicionado ao Carrinho!')}
 
