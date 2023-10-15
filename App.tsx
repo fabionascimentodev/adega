@@ -151,6 +151,6 @@ const styles = StyleSheet.create({
   logo:{
     resizeMode:'cover',
     width: "100%",
-    height: 578 / 768 * width,
+
   },
 });
